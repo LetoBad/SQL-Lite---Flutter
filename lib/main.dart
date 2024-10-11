@@ -35,6 +35,21 @@ class Pagina1 extends StatefulWidget {
 class _Pagina1State extends State<Pagina1> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('CLIENTES DO BODEGON'),
+      ),
+      body: const Column(
+        children: [
+          Padding(padding: EdgeInsets.all(10.0),
+          child: TextField(decoration: InputDecoration(
+            labelText: 'Nome'
+          
+          ),
+          ),
+          ),
+        ],
+      ),
+    );
   }
 }
