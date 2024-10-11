@@ -20,7 +20,6 @@ class Pessoa{
       'cpf': cpf,
       'creditCard': creditCard,
     };
-  
   }
 
   factory Pessoa.fromMap(Map<String, dynamic> map){
